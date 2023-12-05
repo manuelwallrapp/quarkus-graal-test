@@ -86,13 +86,6 @@
       <artifactId>quarkus-openshift-client</artifactId>
     </dependency>
 
-    <!-- TODO Needed for Quarkus native build as long not solved: https://github.com/quarkusio/quarkus/issues/27470 -->
-    <dependency>
-      <groupId>ch.sbb.esta.quarkus.tektonclient</groupId>
-      <artifactId>esta-quarkus-tekton-client</artifactId>
-      <version>${esta.quarkus.tekton.client}</version>
-    </dependency>
-
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-config-yaml</artifactId>
